@@ -42,11 +42,12 @@ menu {
 
 menu ul {
     display: flex;
-    justify-content: flex-start; 
+    justify-content: flex-start; /* alinha os itens à esquerda */
     align-items: center;
     gap: 20px;
     list-style: none;
-    
+    padding-left: 30px;
+    margin: 0;
 }
 
 menu li {
@@ -58,7 +59,7 @@ menu li {
 menu li a {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     font-size: 20px;
     color: rgb(230, 230, 230);
     text-decoration: none;
@@ -66,5 +67,9 @@ menu li a {
 
 .material-icons,
 .material-symbols-outlined {
-    font-size: 20px;
+    font-size: 24px;
+}
+
+.search {
+    justify-content: end;
 }
