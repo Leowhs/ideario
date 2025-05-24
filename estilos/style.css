@@ -85,6 +85,12 @@ menu li a {
   transition: 0.2s;
 }
 
+main {
+  min-height: 300px;
+  padding: 20px;
+  background-color: white;
+}
+
 .noticia-container {
   background-color: white;
   border: 1px solid rgb(192, 192, 192);
@@ -135,7 +141,6 @@ menu li a {
 footer {
   background-color: #000080;
   color: rgb(230, 230, 230);
-  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
