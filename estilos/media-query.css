@@ -1,0 +1,32 @@
+@media print { /* IMPRESSÃO */
+
+    main h1{
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+
+    header{
+        content: none;
+    }
+
+}
+
+    @media (min-width: 800px) and (max-width: 1500px) {
+  .noticias-principais {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .noticia-principal-1,
+  .noticia-principal-2 {
+    flex: 1 1 45%;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+}
