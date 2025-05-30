@@ -12,6 +12,10 @@
 
 }
 
+@media (landscape) {
+
+}
+
 @media (min-width: 800px) and (max-width: 1500px) {
       
   menu ul {
