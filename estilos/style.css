@@ -95,14 +95,13 @@ article {
 }
 
 .em-alta {
-    font-weight: lighter;
-    text-align: left;
-    margin-left: 5px;
-
+  font-weight: lighter;
+  text-align: left;
+  margin-left: 5px;
 }
 
 #aglomerado {
-    display: inline-block;
+  display: inline-block;
 }
 
 .noticia-principal-1 {
@@ -110,10 +109,7 @@ article {
   border: 1px solid rgb(192, 192, 192);
   border-radius: 5px;
   padding: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 1px;
+  margin: 10px;
   width: 70%;
   height: 240px;
 }
@@ -125,9 +121,9 @@ article {
 }
 
 .noticia-principal-1 li {
-    margin-bottom: 5px;
-    list-style-type: disc;
-    list-style-position: inside;
+  margin-bottom: 5px;
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 .noticia-principal-2 {
@@ -135,10 +131,8 @@ article {
   border: 1px solid rgb(192, 192, 192);
   border-radius: 5px;
   padding: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 5px;  width: 50%;
+  margin: 10px;
+  width: 50%;
   height: 155px;
 }
 
@@ -149,26 +143,16 @@ article {
 }
 
 .noticia-principal-2 li {
-    margin-bottom: 5px;
-    list-style-type: disc;
-    list-style-position: inside;
+  margin-bottom: 5px;
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 .noticia-container-2 .subititulo {
-  font-size: 17x;
+  font-size: 17px;
   color: black;
   margin-left: 5px;
 }
-
-/* .noticia-container {
-  background-color: white;
-  border: 1px solid rgb(192, 192, 192);
-  border-radius: 5px;
-  padding: 5px;
-  margin: 10px 30px;
-  width: 94.9%;
-  height: 150px;
-} */
 
 .noticia-container .categoria {
   color: rgb(43, 43, 43);
@@ -183,20 +167,10 @@ article {
 }
 
 .noticia-container .subititulo {
-  font-size: 17x;
+  font-size: 17px;
   color: black;
   margin-left: 5px;
 }
-
-/*
-.noticia-container .imagem {
-  background-image: url();
-  background-size: cover;
-  background-position: center;
-  border-radius: 5px;
-  width: 100%;
-  height: 300px;
-} */ 
 
 .noticia-container .imagem > h1,
 .noticia-container .imagem > p {
@@ -210,8 +184,6 @@ article {
 footer {
   background-color: #000080;
   color: rgb(230, 230, 230);
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100px;
   display: flex;
@@ -219,12 +191,69 @@ footer {
 }
 
 footer h1 {
-    margin-left: 15px;
-    margin-bottom: 10px;
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
 
 footer p {
-    font-size: 15px;
-    margin-left: 15px;
-    margin-top: 15px;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 32px;
+    padding: 10px;
+  }
+
+  menu ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  menu li a {
+    font-size: 16px;
+  }
+
+  .noticia-principal-1,
+  .noticia-principal-2 {
+    width: 95%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .noticia-principal-1 a,
+  .noticia-principal-2 a {
+    font-size: 24px;
+  }
+
+  .noticia-container .titulo {
+    font-size: 18px;
+  }
+
+  .noticia-container .subititulo {
+    font-size: 14px;
+  }
+
+  footer h1 {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  footer p {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  main {
+    padding: 10px;
+  }
 }
