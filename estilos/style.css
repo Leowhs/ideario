@@ -111,6 +111,9 @@ article {
   width: 100%;
   height: auto;
 
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 .noticia-principal-1 a,
