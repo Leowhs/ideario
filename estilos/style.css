@@ -103,18 +103,18 @@ article {
   display: inline-block;
 }
 
+.noticia-principal-2 {
+  height: 180px;
+}
+
 .noticia-principal-1,
 .noticia-principal-2 {
   background-color: white;
   border: 1px solid rgb(192, 192, 192);
   border-radius: 5px;
   padding: 10px;
-  margin-top: 5px;
-  margin-left: 4px;
-  margin-right: 4px;
-  margin-bottom: 10px;
+  margin: 5px 4px 10px 4px;
   width: 98%;
-  height: auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -142,15 +142,19 @@ article {
 .noticia-container .categoria {
   color: rgb(43, 43, 43);
   font-style: italic;
-  margin-bottom: 1px;
-  border-bottom: 1px solid transparent;
+  margin: 0 0 2px 5px;
+  padding: 0;
+  line-height: 1;
+  display: block;
 }
 
 .noticia-container .titulo {
   color: #000080;
   font-size: 18px;
-  margin-left: 5px;
-  margin-top: 1px;
+  margin: 0 0 5px 5px;
+  padding: 0;
+  line-height: 1.2;
+  display: block;
 }
 
 .noticia-container .subititulo {
