@@ -48,6 +48,7 @@ menu ul {
   gap: 10px;
   padding: 10px;
   list-style: none;
+  text-align: center;
 }
 
 menu li {
