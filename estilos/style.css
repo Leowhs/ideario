@@ -30,10 +30,11 @@ header {
 
 header h1 {
   color: white;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.473);
-  font-size: 35px;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.37);
+  font-size: 40px;
   font-weight: bolder;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 1px;
   text-align: center;
   width: 100%;
 }
@@ -111,7 +112,8 @@ article {
   margin-top: 5px;
   margin-left: 4px;
   margin-right: 4px;
-  width: 99.9%;
+  margin-bottom: 10px;
+  width: 99.5%;
   height: 180px;
   display: flex;
   flex-wrap: wrap;
