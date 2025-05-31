@@ -108,7 +108,7 @@ article {
   margin-top: 5px;
   margin-left: 5px;
   margin-right: 5px;
-  width: 80%;
+  width: 100%;
   height: auto;
 
 }
@@ -136,6 +136,7 @@ article {
 .noticia-container .categoria {
   color: rgb(43, 43, 43);
   font-style: italic;
+  margin-bottom: 1px;
   border-bottom: 1px solid transparent;
 }
 
@@ -143,6 +144,7 @@ article {
   color: #000080;
   font-size: 18px;
   margin-left: 5px;
+  margin-top: 1px;
 }
 
 .noticia-container .subititulo {
