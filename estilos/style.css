@@ -14,6 +14,10 @@ body, html {
   font-family: "Funnel Sans", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   background-color: #000080;
   color: rgb(230, 230, 230);
@@ -28,7 +32,7 @@ header {
   align-items: center;
 }
 
-header h1 {
+header h1 a {
   color: white;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.37);
   font-size: 40px;
@@ -37,6 +41,7 @@ header h1 {
   margin-bottom: 1px;
   text-align: center;
   width: 100%;
+  text-decoration: none;
 }
 
 menu {
@@ -93,28 +98,22 @@ article {
   width: 100%;
 }
 
-.em-alta {
-  font-weight: lighter;
-  text-align: left;
-  margin-left: 5px;
-}
-
 #aglomerado {
   display: inline-block;
-}
-
-.noticia-principal-2 {
-  height: 180px;
 }
 
 .noticia-principal-1,
 .noticia-principal-2 {
   background-color: white;
   border: 1px solid rgb(192, 192, 192);
-  border-radius: 5px;
+  border-radius: 1.5px;
   padding: 10px;
-  margin: 5px 4px 10px 4px;
+  margin-top: 5px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 0px;
   width: 98%;
+  height: 200px auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -128,33 +127,30 @@ article {
 
 .noticia-principal-1 li,
 .noticia-principal-2 li {
-  margin-bottom: 5px;
-  list-style-type: disc;
+  margin-left: 5px;
   list-style-position: inside;
+  padding-left: 5px;
 }
 
 .noticia-container-2 .subititulo {
   font-size: 14px;
   color: black;
-  margin-left: 5px;
+  margin-left: 2px;
 }
 
 .noticia-container .categoria {
   color: rgb(43, 43, 43);
-  font-style: italic;
-  margin: 0 0 2px 5px;
-  padding: 0;
-  line-height: 1;
-  display: block;
+  font-style: normal;
+  padding: 0px;
+  margin-top: 1px;
+  margin-bottom: -2px;
 }
 
 .noticia-container .titulo {
   color: #000080;
   font-size: 18px;
-  margin: 0 0 5px 5px;
-  padding: 0;
-  line-height: 1.2;
-  display: block;
+  margin-left: 5px;
+  margin-top: 1px;
 }
 
 .noticia-container .subititulo {
@@ -170,6 +166,61 @@ article {
 
 .noticia-container .imagem:hover {
   transition: 0.7s;
+}
+
+.em-alta h1 {
+  font-weight: lighter;
+  text-align: left;
+  margin-left: 2px;
+  width: 100%;
+  flex-basis: 100%;
+}
+
+.em-alta {
+  background-color: white;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 1.5px;
+
+  padding: 10px;
+  margin-top: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 5px;
+  width: 99%;
+  height: 200px auto;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.em-alta .titulo {
+  font-size: 22px;
+  font-weight: bolder;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  line-height: 0.9
+}
+
+.em-alta .titulo a {
+  color: #000080;
+  text-decoration: none !important;
+}
+
+.noticia-imagem {
+  background-image: url(../media/conto-para-guto.jpeg);
+  background-repeat: no-repeat;
+  position: 0;
+  height: 120px;
+} 
+
+hr {
+    height: 1px;
+    width: 99.8%;
+    background-color: #ccc;
+    border: none;
+    margin-top: 5px;
+    align-items: center;
 }
 
 footer {
