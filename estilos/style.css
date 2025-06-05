@@ -262,7 +262,7 @@ hr {
 input {
   width: 50%;
   height: 100px;
-  margin-left: 400px;
+  margin-left: 0px;
 }
 
 input::placeholder,
