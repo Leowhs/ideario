@@ -149,12 +149,14 @@ article img {
   border: 1px solid rgb(170, 170, 170);
   border-radius: 1.5px;
   padding: 10px;
+  margin-top: 2.5px;
+  margin-bottom: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
   width: 98%;
   height: 200px auto;
   display: flex;
   flex-wrap: wrap;
-
-  background-color: rgb(199, 198, 198);
 }
 
 .noticia-principal-1 a,
