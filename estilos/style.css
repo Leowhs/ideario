@@ -116,7 +116,7 @@ article p {
   line-height: 1.7;
   color: #111;
   margin-bottom: 15px;
-    text-align: center;
+  text-align: center;
   margin-right: 10px;
 }
 
@@ -132,7 +132,7 @@ article p {
 }
 
 article img {
-  width: 500px;
+  width: 90%;
   border-radius: 10px;
   align-items: center;
   margin-top: 10px;
