@@ -116,12 +116,15 @@ article p {
   line-height: 1.7;
   color: #111;
   margin-bottom: 15px;
+    text-align: center;
+  margin-right: 10px;
 }
 
 .autor-data {
   font-size: 15px;
   line-height: 12px;
-  text-align: left;
+  text-align: center;
+  margin-right: 10px;
 }
 
 .autor-data strong {
@@ -133,7 +136,7 @@ article img {
   border-radius: 10px;
   align-items: center;
   margin-top: 10px;
-  margin-left: 400px;
+  text-align: center;
 }
 
 #aglomerado {
@@ -241,7 +244,7 @@ article img {
   background-position: center;
   display: block;
   width: 98.8%;
-  height: 200px;
+  height: 1200px;
 
   border-radius: 1.5px;
   padding: 10px;
