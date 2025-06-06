@@ -19,7 +19,7 @@ a {
 }
 
 header {
-  background-color: palevioletred /*#000080 */;
+  background-color: rgb(255, 0, 0) /*#000080 */;
   color: rgb(230, 230, 230);
   position: sticky;
   top: 0;
@@ -115,7 +115,7 @@ article p {
   line-height: 1.7;
   color: #111;
 
-  margin-left: 10px;
+  margin-left: 15px;
   margin-bottom: 15px;
 }
 
@@ -124,7 +124,7 @@ article p {
 
   line-height: 12px;
   text-align: left;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .autor-data strong {
