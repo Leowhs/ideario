@@ -148,8 +148,8 @@ article img {
   border-radius: 1.5px;
   padding: 10px;
   margin-top: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
   margin-bottom: 5px;
   width: 98%;
   height: 200px auto;
@@ -243,7 +243,7 @@ article img {
   background-size: cover;
   background-position: center;
   display: block;
-  width: 99.1%;
+  width: 98.5%;
   height: 120px;
 
   border-radius: 1.5px;
