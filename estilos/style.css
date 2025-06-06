@@ -242,17 +242,17 @@ article img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  align-items: center;
   display: block;
-  width: 98.5%;
-  height: 120px;
+  width: 50%;
 
   border-radius: 1.5px;
   padding: 10px;
   margin-top: 5px;
-  margin-left: 5px;
+  margin-left: 350px;
   margin-right: 4px;
   margin-bottom: 10px;
-  height: 200px auto;
+  height: 400px;
 }
 
 .noticia-imagem .titulo,
