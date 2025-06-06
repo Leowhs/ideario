@@ -19,7 +19,7 @@ a {
 }
 
 header {
-  background-color: rgb(255, 0, 0) /*#000080 */;
+  background-color: rgb(255, 0, 234) /*#000080 */;
   color: rgb(230, 230, 230);
   position: sticky;
   top: 0;
@@ -132,7 +132,7 @@ article p {
 }
 
 article img {
-  width: 500px;
+  width: 300px;
   border-radius: 10px;
   align-items: center;
   margin-top: 10px;
