@@ -243,19 +243,16 @@ article img {
   background-image: url(../media/conto-para-guto.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
-  align-items: center;
+  background-position: center;
+  
   display: block;
   width: 50%;
-
+  height: 550px;
   border-radius: 1.5px;
   padding: 10px;
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
-  height: 550px;
+  margin: 5px auto;
 }
+
 
 .noticia-imagem .titulo,
 .noticia-imagem .subititulo {
