@@ -136,7 +136,7 @@ article img {
   border-radius: 10px;
   align-items: left;
   margin-top: 10px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 #aglomerado {
@@ -277,10 +277,14 @@ hr {
     align-items: center;
 }
 
-.comentarios {
-  font-size: 17px;
-  line-height: 1.7;
-  margin-bottom: 15px;
+.comentarios hr {
+    height: 1px;
+    width: 90%;
+    background-color: #ccc;
+    border: none;
+    margin-top: 5px;
+    margin-left: 55px;
+    align-items: center;
 }
 
 .comentarios h2 {
@@ -296,9 +300,13 @@ hr {
 
 .comentarios p {
   color: rgb(19, 19, 19);
-  font-size: 15.5px;
+  font-size: 13.5px;
   font-weight: lighter;
   text-align: left;
+}
+
+.comentarios a {
+  color: #000080;
 }
 
 input {

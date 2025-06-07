@@ -34,4 +34,9 @@
     flex: 1 1 45%;
     width: 100%;
   }
+
+  .comentarios p {
+    margin-left: 300px;
+}
+
 }
