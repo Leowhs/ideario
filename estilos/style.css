@@ -310,8 +310,35 @@ hr {
   text-decoration: underline;
 }
 
+.comentario-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+textarea {
+  font-family: "Funnel Sans";
+  width: 500px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  resize: none;
+}
+
+button{
+  font-family: "Funnel Sans";
+  padding: 5px;
+  background-color: #000080;
+  color: white;
+}
+
 input {
-  align-items: left;
+  width: 500px;
+  height: 100px;
+  padding: 0 5px 80px 5px;
+  text-align: left;
 }
 
 footer {
