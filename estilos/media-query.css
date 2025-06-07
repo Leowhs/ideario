@@ -32,11 +32,6 @@
   .noticia-principal-1,
   .noticia-principal-2 {
     flex: 1 1 45%;
-    background-color: #ffff;
-    color: rgb(44, 44, 44);
-    border-radius: 10px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-    margin: 5px;
     width: 100%;
   }
 }
