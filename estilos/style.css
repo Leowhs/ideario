@@ -279,11 +279,11 @@ hr {
 
 .comentarios hr {
     height: 1px;
-    width: 90%;
+    width: 50%;
     background-color: #ccc;
     border: none;
     margin-top: 5px;
-    margin-left: 55px;
+    margin-left: 30px;
     align-items: center;
 }
 
@@ -327,11 +327,20 @@ textarea {
   resize: none;
 }
 
-button{
+button {
   font-family: "Funnel Sans";
-  padding: 5px;
+  padding: 10px;
   background-color: #000080;
   color: white;
+  border: none;
+  cursor: pointer;
+  width: 90px;
+  transition: 0.3s;
+  margin-left: 415px;
+}
+
+button:hover {
+  background-color: #000066;
 }
 
 input {
