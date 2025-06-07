@@ -307,6 +307,7 @@ hr {
 
 .comentarios a {
   color: #000080;
+  text-decoration: underline;
 }
 
 input {
