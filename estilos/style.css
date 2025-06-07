@@ -278,13 +278,12 @@ hr {
 }
 
 .comentarios hr {
-    height: 1px;
-    width: 50%;
-    background-color: #ccc;
-    border: none;
-    margin-top: 5px;
-    margin-left: 30px;
-    align-items: center;
+  height: 1px;
+  width: 80%;
+  background-color: #ccc;
+  border: none;
+  margin-top: 5px;
+  margin: 5px auto; 
 }
 
 .comentarios h2 {
