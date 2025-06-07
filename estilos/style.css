@@ -134,7 +134,7 @@ article p {
 article img {
   width: 300px;
   border-radius: 10px;
-  align-items: center;
+  align-items: left;
   margin-top: 10px;
   margin-left: 50px;
 }
