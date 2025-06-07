@@ -19,7 +19,7 @@ a {
 }
 
 header {
-  background-color: #fbff00 ;
+  background-color: purple /*000080*/ ;
   color: rgb(230, 230, 230);
   position: sticky;
   top: 0;
@@ -315,7 +315,7 @@ hr {
 
 textarea {
   font-family: "Funnel Sans";
-  width: 500px;
+  width: 400px;
   height: 100px;
   padding: 10px;
   margin-bottom: 15px;
@@ -332,7 +332,7 @@ button {
   cursor: pointer;
   width: 90px;
   transition: 0.3s;
-  margin-left: 415px;
+  margin-left: 5px;
   margin-bottom: 10px;
 }
 

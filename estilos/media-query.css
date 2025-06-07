@@ -39,4 +39,17 @@
     margin-left: 300px;
 }
 
+  button {
+  font-family: "Funnel Sans";
+  padding: 10px;
+  background-color: #000080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 90px;
+  transition: 0.3s;
+  margin-left: 500px;
+  margin-bottom: 10px;
+}
+
 }
