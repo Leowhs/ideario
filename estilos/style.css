@@ -337,6 +337,7 @@ button {
   width: 90px;
   transition: 0.3s;
   margin-left: 415px;
+  margin-bottom: 10px;
 }
 
 button:hover {
@@ -344,8 +345,9 @@ button:hover {
 }
 
 input {
-  width: 500px;
+  width: 400px;
   height: 100px;
+  margin: 5px;
   padding: 0 5px 80px 5px;
   text-align: left;
 }
