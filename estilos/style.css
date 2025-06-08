@@ -19,7 +19,7 @@ a {
 }
 
 header {
-  background-color: purple /*000080*/ ;
+  background-color: rgb(73, 128, 0) /*000080*/ ;
   color: rgb(230, 230, 230);
   position: sticky;
   top: 0;
@@ -314,10 +314,13 @@ hr {
 }
 
 textarea {
+  border: 1px solid rgb(192, 192, 192);
   font-family: "Funnel Sans";
-  width: 400px;
+  width: 300px;
   height: 100px;
   padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-bottom: 15px;
   font-size: 16px;
   resize: none;
