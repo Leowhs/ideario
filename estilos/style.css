@@ -84,7 +84,8 @@ menu li a {
 .material-icons,
 .material-symbols-outlined {
   font-size: 18px;
-  margin-top: 4px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 main {
