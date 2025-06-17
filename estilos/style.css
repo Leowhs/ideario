@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: left;
 }
 
 body, html {
@@ -25,7 +26,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 110px;
+  height: 125px;
   z-index: 1000;
   display: flex;
   flex-direction: column;
@@ -154,6 +155,7 @@ article img {
   font-size: 24px;
   color: #000080;
   text-decoration: none;
+  margin-left: 5px;
 }
 
 .noticia-principal-1 li,
