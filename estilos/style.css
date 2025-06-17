@@ -155,7 +155,8 @@ article img {
   font-size: 24px;
   color: #000080;
   text-decoration: none;
-  margin-left: 5px;
+  margin-right: 0.1px;
+  margin-top: 90px;
 }
 
 .noticia-principal-1 li,
@@ -164,6 +165,8 @@ article img {
   list-style-position: inside;
   padding-left: 5px;
 }
+
+
 
 .noticia-container-2 .subititulo {
   font-size: 14px;
