@@ -1,9 +1,27 @@
-@media print {
+@charset "UTF-8";
 
+:root {
+  --azul-principal: #000080;
+  --azul-hover: #000066;
+  --azul-transparente: #00009486;
+  --cinza-fundo: rgb(216, 216, 216);
+  --cinza-claro: rgb(241, 241, 241);
+  --cinza-borda: rgb(192, 192, 192);
+  --cinza-escuro: #bdbdbdc5;
+  --cinza-hr: #ccc;
+  --texto-padrao: #111;
+  --texto-secundario: rgb(230, 230, 230);
+  --texto-terciario: rgb(43, 43, 43);
+  --texto-comentario: rgb(19, 19, 19);
+  --gradiente-tablet-top: #49a09d;
+  --gradiente-tablet-bottom: #5f2c82;
+}
+
+@media print {
   * {
     color: black;
   }
-  
+
   main h1 {
     font-family: 'Courier New', Courier, monospace;
     text-shadow: none;
@@ -15,74 +33,135 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) { /* CONFIGURAÇÃO PARA TABLET */
-    body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
-    }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* Tablet */
 
-    section#login {
-        width: 80vw;
-        height: 280px;
-    }
+  body {
+    background-image: linear-gradient(to top, var(--gradiente-tablet-top), var(--gradiente-tablet-bottom));
+  }
 
-    section#login > div#imagem {
-        float: left;
-        width: 30%;
-        height: 100%;
-    }
+  section#login {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: stretch;
+    justify-content: space-between;
+  }
 
-    section#login > div#formulario {
-        float: right;
-        width: 70%;
-    }
+  section#login > div#imagem {
+    flex: 1 1 30%;
+    height: auto;
+  }
+
+  section#login > div#formulario {
+    flex: 1 1 65%;
+    height: auto;
+  }
+
+  button {
+    font-family: "Funnel Sans";
+    padding: 10px;
+    background-color: var(--azul-principal);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+    margin: 20px auto 10px;
+    display: block;
+  }
 }
 
-    @media screen and (min-width: 992px) { /* CONFIGURAÇÕES PARA DESKTOP */
+@media screen and (min-width: 992px) {
+  /* Desktop */
 
-    menu ul {
+  menu ul {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: flex-start;
+    align-items: center;
     gap: 10px;
     padding: 10px;
     list-style: none;
     text-align: left;
-    }
+  }
 
-    .noticias-principais {
-      display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-bottom: 30px;
-    }
+  .noticias-principais {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
 
-    .noticia-principal-1,
-    .noticia-principal-2 {
-      flex: 1 1 45%;
-      width: 100%;
-    }
+  .noticia-principal-1,
+  .noticia-principal-2 {
+    flex: 1 1 45%;
+    width: 100%;
+  }
 
-    .comentarios p {
-      margin-left: 300px;
-    }
+  .comentarios p {
+    margin-left: 300px;
+  }
 
-    .login h1 {
-      font-size: 35px;
-      text-align: center;
-    }
+  .login h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+}
 
-    button {
-    font-family: "Funnel Sans";
+@media screen and (max-width: 767px) {
+  /* Celulares */
+
+  body {
     padding: 10px;
-    background-color: #000080;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 90px;
-    transition: 0.3s;
-    margin-left: 500px;
-    margin-bottom: 10px;
-    }
+  }
 
+  header {
+    height: auto;
+    padding: 10px;
+  }
+
+  header h1 a {
+    font-size: 28px;
+  }
+
+  menu ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .noticia-principal-1,
+  .noticia-principal-2,
+  .em-alta {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .login {
+    padding: 20px;
+    margin: 20px auto;
+    width: 95%;
+  }
+
+  .login h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  button {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  section#login {
+    flex-direction: column;
+  }
+
+  section#login > div#imagem,
+  section#login > div#formulario {
+    width: 100%;
+  }
 }
