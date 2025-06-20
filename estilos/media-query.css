@@ -102,6 +102,13 @@
     width: 100%;
   }
 
+  article h1, 
+  article .autor-data,
+  article img,
+  article p {
+    margin-left: 300px;
+  }
+
   .comentarios p {
     margin-left: 300px;
   }

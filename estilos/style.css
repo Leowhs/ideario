@@ -15,19 +15,19 @@
   --texto-comentario: rgb(19, 19, 19);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-align: left;
+  font-family: "Roboto", sans-serif;
 }
 
 body, html {
   background-color: var(--cinza-fundo);
-  font-family: "Funnel Sans", arial;
+  font-family: "Roboto", sans-serif;
 }
 
 ::selection {
@@ -40,14 +40,14 @@ a {
 }
 
 header {
-  font-family: "Funnel Sans", arial;
-  background-color: #048000;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--azul-principal);
   color: var(--texto-secundario);
   position: sticky;
   top: 0;
   left: 0;
   width: 100%;
-  height: 135px;
+  height: 145px;
   z-index: 1000;
   display: flex;
   flex-direction: column;
@@ -56,9 +56,11 @@ header {
 }
 
 header h1 a {
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.37);
   font-size: 40px;
+  font-weight: bolder;
   text-align: center;
   align-items: center;
   text-decoration: none;
@@ -147,7 +149,6 @@ article p {
 .compartilhar i {
   text-align: left;
   margin-left: 15px;
-
   font-size: 20px;
   color: var(--azul-principal);
   cursor: pointer;
@@ -250,11 +251,10 @@ article img {
 
 .em-alta .titulo {
   font-size: 22px;
-  font-weight: bolder;
-  margin-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 0px;
+  font-weight: bold;
+  margin: 10px;
   line-height: 0.9
+
 }
 
 .em-alta .titulo a {
@@ -336,7 +336,7 @@ hr {
 
 textarea {
   border: 1px solid var(--cinza-borda);
-  font-family: "Funnel Sans", arial;
+  font-family: "Roboto", sans-serif;
   width: 300px;
   height: 100px;
   padding: 10px;
@@ -346,7 +346,7 @@ textarea {
 }
 
 button {
-  font-family: "Funnel Sans", arial;
+  font-family: "Roboto", sans-serif;
   padding: 10px;
   background-color: var(--azul-principal);
   color: white;
@@ -407,6 +407,7 @@ button:hover {
   border-radius: 6px;
   outline: none;
   transition: 0.2s;
+  font-family: "Roboto", sans-serif;
 }
 
 .campo input:focus,
@@ -441,9 +442,10 @@ input[type="submit"] {
   font-size: 16px;
   width: 100%;
   margin-top: 10px;
-  margin-left: -15px;
+  margin-left: -1px;
   cursor: pointer;
   transition: background-color 0.3s;
+  font-family: "Roboto", sans-serif;
 }
 
 input[type="submit"]:hover {
@@ -451,7 +453,8 @@ input[type="submit"]:hover {
 }
 
 input[type="date"] {
-  font-family: "Funnel sans", arial;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
 }
 
 .login p a {
