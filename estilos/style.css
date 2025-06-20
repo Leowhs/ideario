@@ -41,7 +41,7 @@ a {
 
 header {
   font-family: "Funnel Sans", arial;
-  background-color: var(--azul-principal);
+  background-color: palevioletred /*var(--azul-principal)*/;
   color: var(--texto-secundario);
   position: sticky;
   top: 0;
