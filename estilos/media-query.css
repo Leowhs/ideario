@@ -106,62 +106,12 @@
     margin-left: 300px;
   }
 
+  button {
+    margin-left: 300px;
+  }
+
   .login h1 {
     font-size: 35px;
     text-align: center;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  /* Celulares */
-
-  body {
-    padding: 10px;
-  }
-
-  header {
-    height: auto;
-    padding: 10px;
-  }
-
-  header h1 a {
-    font-size: 28px;
-  }
-
-  menu ul {
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  .noticia-principal-1,
-  .noticia-principal-2,
-  .em-alta {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .login {
-    padding: 20px;
-    margin: 20px auto;
-    width: 95%;
-  }
-
-  .login h1 {
-    font-size: 24px;
-    text-align: center;
-  }
-
-  button {
-    width: 100%;
-    margin: 15px 0;
-  }
-
-  section#login {
-    flex-direction: column;
-  }
-
-  section#login > div#imagem,
-  section#login > div#formulario {
-    width: 100%;
   }
 }

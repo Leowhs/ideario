@@ -119,6 +119,11 @@ article {
   width: 100%;
 }
 
+article h1 {
+  font-size: 30px;
+  margin: 10px 5px 5px 15px;
+}
+
 article p {
   font-size: 17px;
   line-height: 1.7;
@@ -131,18 +136,34 @@ article p {
   font-size: 15px;
   line-height: 12px;
   text-align: left;
-  margin-left: 50px;
+  margin-left: 18.5px;
 }
 
-.autor-data strong {
+.autor-data a {
+  font-weight: bold;
   color: var(--azul-principal);
+}
+
+.compartilhar i {
+  text-align: left;
+  margin-left: 15px;
+
+  font-size: 20px;
+  color: var(--azul-principal);
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: -5px;
+}
+
+.compartilhar i:hover {
+  color: var(--azul-hover);
 }
 
 article img {
   width: 300px;
   border-radius: 10px;
   align-items: left;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 30px;
 }
 
@@ -315,7 +336,7 @@ hr {
 
 textarea {
   border: 1px solid var(--cinza-borda);
-  font-family: "Funnel Sans";
+  font-family: "Funnel Sans", arial;
   width: 300px;
   height: 100px;
   padding: 10px;
@@ -325,7 +346,7 @@ textarea {
 }
 
 button {
-  font-family: "Funnel Sans";
+  font-family: "Funnel Sans", arial;
   padding: 10px;
   background-color: var(--azul-principal);
   color: white;
